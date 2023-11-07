@@ -211,19 +211,19 @@ button {
 
 .card:nth-of-type(1) {
     margin-left: 120px;
-    background: url(./img/004.jpg);
+    background: url(./img/004.png);
 }
 
 .card:nth-of-type(2) {
-    background: url(./img/003.jpg);
+    background: url(./img/003.png);
 }
 
 .card:nth-of-type(3) {
-    background: url(./img/002.jpg);
+    background: url(./img/002.png);
 }
 
 .card:nth-of-type(4) {
-    background: url(./img/001.jpg);
+    background: url(./img/001.png);
 }
 
 .card-text {
