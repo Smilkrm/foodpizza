@@ -211,19 +211,19 @@ button {
 
 .card:nth-of-type(1) {
     margin-left: 120px;
-    background-image: url(/img/Rectangle\ 4575.jpg), lightgray 50% / contain no-repeat;
+    background-image: url(/img/Rectangle\ 4575.jpg);
 }
 
 .card:nth-of-type(2) {
-    background-image: url(/img/Rectangle\ 4576.jpg), lightgray 50% / contain no-repeat;
+    background-image: url(/img/Rectangle\ 4576.jpg);
 }
 
 .card:nth-of-type(3) {
-    background-image: url(/img/Rectangle\ 4577.jpg), lightgray 50% / contain no-repeat;
+    background-image: url(/img/Rectangle\ 4577.jpg);
 }
 
 .card:nth-of-type(4) {
-    background-image: url(/img/Rectangle\ 4578.jpg), lightgray 50% / contain no-repeat;
+    background-image: url(/img/Rectangle\ 4578.jpg);
 }
 
 .card-text {
