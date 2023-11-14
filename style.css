@@ -11,10 +11,9 @@ header {
     width: 1440px;
     height: 889px;
     flex-shrink: 0;
-    background: url(img/two\ 1.png);
+    background: url(./img/Maskgroup.png);
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .text-block {
@@ -155,11 +154,20 @@ button {
     font-style: normal;
     font-weight: 700;
     background: var(--yeallow-brand-color, #FC0);
-    margin-top: 92px;
+    margin-top: 12px;
     margin-left: 0px;
     position: relative;
 }
-
+.white-block{
+    height: 200px;
+    background: #fff;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top:-155px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
 .top-food {
     background: var(--white-secondery-color, #FFF);
     width: 1440px;
@@ -168,6 +176,7 @@ button {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    z-index: -1;
 }
 
 .top-text {
