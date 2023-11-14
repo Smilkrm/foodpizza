@@ -171,12 +171,13 @@ button {
 .top-food {
     background: var(--white-secondery-color, #FFF);
     width: 1440px;
-    height: 850px;
+    height: 650px;
     flex-shrink: 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     z-index: -1;
+    margin-top:-40px;
 }
 
 .top-text {
@@ -209,7 +210,7 @@ button {
     width: 277px;
     height: 502px;
     flex-shrink: 0;
-    margin-top: -40px;
+    margin-top: -35px;
     margin-left: 30px;
     display: flex;
     flex-direction: column-reverse;
