@@ -375,7 +375,7 @@ button {
     flex-direction: row;
     margin-top: -15px;
     flex-wrap: wrap;
-    gap:29px;
+    gap: 29px;
 }
 
 .otlcrd {
@@ -400,13 +400,14 @@ button {
     flex-shrink: 0;
     margin-top: 20px;
 }
-.text-otlcrd{
+
+.text-otlcrd {
     width: 380px;
     color: var(--black-font-color, #231900);
-text-align: center;
-font-family: Poppins;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
