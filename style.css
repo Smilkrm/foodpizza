@@ -411,3 +411,444 @@ button {
     font-weight: 700;
     line-height: normal;
 }
+
+.pzzdel {
+    background: var(--white-secondery-color, #FFF);
+    width: 1440px;
+    height: 820px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.mainpzzdel {
+    background: var(--white-secondery-color, #FFF);
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pzzdel-text {
+    width: 135px;
+    height: 27px;
+    color: var(--yeallow-brand-color, #FC0);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 108px 0 0 128px;
+    align-self: flex-start;
+}
+
+.start-today {
+    width: 525px;
+    height: 83px;
+    margin: 0 0 0 120px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: flex-start;
+}
+
+.yellowstick {
+    width: 175px;
+    height: 5px;
+    background: #FC0;
+    margin: 16px 0 0 120px;
+}
+
+.pzzdel-need {
+    width: 585px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 16px 0 0 120px;
+}
+
+.pzzdel-need-sec {
+    width: 585px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 16px 0 0 120px;
+}
+
+.pzzdel-cards {
+    width: 584px;
+    height: 270px;
+    margin: 41px 0 0 120px;
+    display: flex;
+}
+
+.pzzdel-first {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 270px;
+    flex-shrink: 0;
+    background: var(--white-secondery-color, #FFF);
+}
+
+.img-first {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4591.jpg), lightgray 50% / contain no-repeat;
+    margin-top: 16px;
+}
+
+.pzzdel-firsttext {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 19px 0 0 0;
+}
+
+.pzzdel-sectext {
+    width: 277px;
+    height: 71px;
+    flex-shrink: 0;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 0 0 0;
+}
+
+.pzzdel-sec {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 270px;
+    flex-shrink: 0;
+    background: var(--white-secondery-color, #FFF);
+    margin: 0 0 0 30px;
+}
+
+.img-sec {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4592.jpg), lightgray 50% / contain no-repeat;
+    margin-top: 16px;
+}
+
+.pzzdel-secfrsttext {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 19px 0 0 0;
+}
+
+.pzzdel-secsectext {
+    width: 277px;
+    height: 71px;
+    flex-shrink: 0;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 0 0 0;
+}
+
+.pzzdel-img {
+    width: 585px;
+    height: 585px;
+    flex-shrink: 0;
+    border-radius: 585px;
+    background: url(./img/Ellipse1177.jpg), lightgray 50% / cover no-repeat;
+    margin: 108px 120px 0 30px;
+}
+
+.team {
+    background: var(--white-secondery-color, #FFF);
+    width: 1440px;
+    height: 820px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teammebmers {
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px;
+}
+
+.meetteam {
+    color: #000;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 3px 0 0 0;
+}
+
+.yellowsticksec {
+    width: 205px;
+    height: 5px;
+    background: #FC0;
+    margin: 25px 0 0 0;
+}
+
+.card-team {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 84px 0 0 120px;
+    gap: 30px;
+}
+
+.cardteamfrst {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 466px;
+    flex-shrink: 0;
+}
+
+.cardimgfrst {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4595.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.teamtextfrst {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 37px 0 0 0;
+}
+
+.teamsmalltextfrst {
+    width: 161.701px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 13px 0 0 0;
+}
+
+.cardteamsec {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 466px;
+    flex-shrink: 0;
+}
+
+.cardimgsec {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4596.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.teamtextsec {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 37px 0 0 0;
+}
+
+.teamsmalltextsec {
+    width: 161.701px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 13px 0 0 0;
+}
+
+.cardteamthird {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 466px;
+    flex-shrink: 0;
+}
+
+.cardimgthird {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4597.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.teamtextthird {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 37px 0 0 0;
+}
+
+.teamsmalltextthird {
+    width: 161.701px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 13px 0 0 0;
+}
+
+.cardteamfour {
+    display: flex;
+    flex-direction: column;
+    width: 277px;
+    height: 466px;
+    flex-shrink: 0;
+}
+
+.cardimgfour {
+    width: 277px;
+    height: 350px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4598.jpg), lightgray 50% / cover no-repeat;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.teamtextfour {
+    width: 277px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 37px 0 0 0;
+}
+
+.teamsmalltextfour {
+    width: 161.701px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 13px 0 0 0;
+}
+
+.ads {
+    background: linear-gradient(91deg, #FC0 17.25%, rgba(234, 231, 222, 0.936) 178.38%);
+    width: 1440px;
+    height: 734px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: flex;
+}
+
+.appdiscount {
+    display: flex;
+    flex-direction: column;
+}
+
+.adsdiscount {
+    width: 584px;
+    color: var(--white-secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 201px 0 0 121px;
+}
+
+.adsapp {
+    width: 584px;
+    color: var(--white-secondery-color, #FFF);
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 32px 0 0 121px;
+}
+
+.imgapps {
+    display: flex;
+    margin: 73px 0 0 121px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.frstapps {
+    width: 176px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(./img/Rectangle4580.jpg), lightgray 50% / contain no-repeat;
+}
+
+.secapps {
+    width: 176px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: url(./img/Rectangle4581.jpg), lightgray 50% / contain no-repeat;
+}
+
+.mainimgads {
+    width: 585px;
+    height: 534px;
+    flex-shrink: 0;
+    background: url(./img/mobileimage.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+    margin: 65px 0 0 30px;
+}
