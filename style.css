@@ -852,3 +852,47 @@ button {
     background: url(./img/mobileimage.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
     margin: 65px 0 0 30px;
 }
+
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1440px;
+    height: 350px;
+    flex-shrink: 0;
+    background: var(--white-secondery-color, #FFF);
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.compfrst{
+    width: 277px;
+height: 200px;
+flex-shrink: 0;
+background: url(./img/Rectangle4600.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+}
+.compsec{
+    width: 277px;
+height: 200px;
+flex-shrink: 0;
+background: url(./img/Rectangle4601.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+}
+.compthird{
+    width: 277px;
+height: 200px;
+flex-shrink: 0;
+background: url(./img/Rectangle4602.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+}
+.compfour{
+    width: 277px;
+height: 200px;
+flex-shrink: 0;
+background: url(./img/Rectangle4603.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+}
+footer{
+    width: 1440px;
+    height: 586px;
+    flex-shrink: 0;
+    margin:0 auto;
+    background: var(--white-secondery-color, #FFF);
+}
