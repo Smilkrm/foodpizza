@@ -861,38 +861,205 @@ button {
     height: 350px;
     flex-shrink: 0;
     background: var(--white-secondery-color, #FFF);
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-.compfrst{
+
+.compfrst {
     width: 277px;
-height: 200px;
-flex-shrink: 0;
-background: url(./img/Rectangle4600.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+    height: 200px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4600.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
 }
-.compsec{
+
+.compsec {
     width: 277px;
-height: 200px;
-flex-shrink: 0;
-background: url(./img/Rectangle4601.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+    height: 200px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4601.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
 }
-.compthird{
+
+.compthird {
     width: 277px;
-height: 200px;
-flex-shrink: 0;
-background: url(./img/Rectangle4602.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+    height: 200px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4602.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
 }
-.compfour{
+
+.compfour {
     width: 277px;
-height: 200px;
-flex-shrink: 0;
-background: url(./img/Rectangle4603.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
+    height: 200px;
+    flex-shrink: 0;
+    background: url(./img/Rectangle4603.png), rgba(211, 211, 211, 0) 50% / contain no-repeat;
 }
-footer{
+
+footer {
+    display: flex;
+    flex-direction: column;
     width: 1440px;
     height: 586px;
     flex-shrink: 0;
-    margin:0 auto;
+    margin: 0 auto;
     background: var(--white-secondery-color, #FFF);
+}
+
+.footmaintext {
+    display: flex;
+    margin: 89px 0 0 120px;
+}
+
+.ftmainfrst {
+    display: flex;
+    flex-direction: column;
+}
+
+.fttextfrst {
+    color: var(--yeallow-brand-color, #FC0);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.fttextfrstsec {
+    width: 380px;
+    margin-bottom: 47px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.miniicons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49.6px;
+}
+
+.frsticon {
+    width: 30px;
+    height: 30px;
+    transform: rotate(-2.688deg);
+    flex-shrink: 0;
+}
+
+.secicon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.thirdicon {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+.listftmain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 82px;
+    margin: 89px 0 0 30px;
+}
+
+.maintext {
+    display: flex;
+    margin-top: -90px;
+    flex-wrap: wrap;
+    gap: 81px;
+}
+
+.listftfrst {
+    width: 175px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.listftsec {
+    width: 175px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.listftthird {
+    width: 278px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+}
+
+.listftother {
+    display: flex;
+    margin-top: -90px;
+    position: relative;
+}
+
+.frsttab p {
+    width: 170.625px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+.sectab p {
+    width: 170.625px;
+    margin-left: 86px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+.thirdtab {
+    width: 271.05px;
+    margin-left: 86px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+
+.last {
+    display: flex;
+    margin: 150px 43px 0 120px;
+}
+
+.last p {
+    width: 274px;
+    color: var(--black-font-color, #231900);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.last p:nth-of-type(2) {
+    margin-left: 683px;
 }
